@@ -1,0 +1,92 @@
+/*************** tag selctor ******************/
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family:'Karla', sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+
+span{
+    font-size: 16px;
+    color: hsl(75, 5%, 85%);
+}
+
+p{
+    color: hsl(75, 5%, 85%);
+}
+
+/*************** class selctor ******************/
+.container{
+    margin: 5% 25% 0;
+    width: 40rem;
+    
+}
+
+.top-container h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.top-container{
+    background-color: white;
+    padding: 5% 0 2% 5%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.top-container p{
+    color: hsl(218, 22%, 67%);
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left-container{
+    background-color: hsl(179, 62%, 43%);
+    width: auto;
+    padding: 5% 0 2% 5%;
+    color: white;
+    flex-grow: 1;
+    border-bottom-left-radius: 9px;
+}
+
+.heading{
+    color: white;
+    font-size: 20px;
+}
+
+.button{
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    margin: 20px 0 0 30px  ;
+    padding: 18px 80px;
+    color: white;
+    border-radius: 5px;
+}
+
+.right-container{
+    padding: 5% 0 2% 5%;
+    background-color: hsl(179, 56%, 53%);
+    border-bottom-right-radius: 9px;
+    flex-grow: 1;
+    line-height: 0.5;
+    color: white;
+}
+
+.why-us{
+    color: white;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.attribution{
+    color: black;
+    text-align: center;
+    margin: 20px;
+}
